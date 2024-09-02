@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
 # Display active listening network connections
-
-netstat -tulnp
+netstat -ltpnu
